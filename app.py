@@ -34,7 +34,7 @@ st.image(image, width=200)
 # 
 st.markdown("### Comandos disponibles:")
 st.markdown("""
-- 🌅 **"empieza el dia"** → Enciende la luz
+- 🌅 **"empieza el día"** → Enciende la luz
 - 🌙 **"cierra la cocina"** → Apaga la luz  
 - 🚪 **"pasa al comedor"** → Abre la puerta
 - 🔒 **"cocina cerrada"** → Cierra la puerta
