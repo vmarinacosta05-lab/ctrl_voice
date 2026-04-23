@@ -34,7 +34,7 @@ st.image(image, width=200)
 # 
 st.markdown("### Comandos disponibles:")
 st.markdown("""
-- 🌅 **"empieza el día"** → Enciende la luz
+- 🌅 **"comienza la mañana"** → Enciende la luz
 - 🌙 **"cierra la cocina"** → Apaga la luz  
 - 🚪 **"pasa al comedor"** → Abre la puerta
 - 🔒 **"cocina cerrada"** → Cierra la puerta
@@ -73,7 +73,7 @@ result = streamlit_bokeh_events(
 
 
 comandos_validos = [
-    "empieza el dia",
+    "comienza la mañana",
     "cierra la cocina",
     "pasa al comedor",
     "cocina cerrada"
