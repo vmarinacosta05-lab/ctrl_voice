@@ -90,7 +90,7 @@ if result:
             client1.on_publish = on_publish
             client1.connect(broker, port)
             message = json.dumps({"Act1": texto_recibido})
-            ret = client1.publish("voice_ctrl", message)
+            ret = client1.publish("voicevalen", message)
         else:
             st.warning(f"⚠️ Comando no reconocido. Intenta con uno de los comandos de la lista.")
 
